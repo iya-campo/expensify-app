@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesListItem correctly 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <h3>
+      Gum
+      <[object Object]
+        className="ml-3"
+        to="/edit/1"
+      >
+        Edit
+      </[object Object]>
+    </h3>
+    <p>
+      Amount: 
+      195
+    </p>
+    <p>
+      Jan 1st, 1970
+    </p>
+  </div>
+</div>
+`;
