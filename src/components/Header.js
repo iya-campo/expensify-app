@@ -8,7 +8,7 @@ export const Header = ({ startLogout }) => (
     <h1>Expensify</h1>
     <ul className='list-group'>
       <li className='list-group-item'>
-        <NavLink to='/dashboard' activeClassName='is-active' exact>
+        <NavLink to='/dashboard' activeClassName='is-active'>
           Dashboard
         </NavLink>
       </li>
