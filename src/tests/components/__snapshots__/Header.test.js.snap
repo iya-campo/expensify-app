@@ -14,7 +14,7 @@ exports[`should render Header correctly 1`] = `
       <[object Object]
         activeClassName="is-active"
         exact={true}
-        to="/"
+        to="/dashboard"
       >
         Dashboard
       </[object Object]>
@@ -28,6 +28,15 @@ exports[`should render Header correctly 1`] = `
       >
         Add Expense
       </[object Object]>
+    </li>
+    <li
+      className="list-group-item"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Logout
+      </button>
     </li>
   </ul>
 </header>

@@ -13,6 +13,7 @@ import {
 import expenses from '../fixtures/expenses';
 import database from '../../firebase/firebase';
 
+// for async functions
 const createMockStore = configureMockStore([thunk]);
 
 beforeEach((done) => {
