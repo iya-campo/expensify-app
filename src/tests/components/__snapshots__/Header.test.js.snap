@@ -1,42 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render Header correctly 1`] = `
-<header>
-  <h1>
-    Expensify
-  </h1>
-  <ul
-    className="list-group"
+<header
+  className="header"
+>
+  <div
+    className="content-container"
   >
-    <li
-      className="list-group-item"
+    <div
+      className="header__content"
     >
       <[object Object]
-        activeClassName="is-active"
+        className="header__title"
         to="/dashboard"
       >
-        Dashboard
+        <h1>
+          Expensify
+        </h1>
       </[object Object]>
-    </li>
-    <li
-      className="list-group-item"
-    >
-      <[object Object]
-        activeClassName="is-active"
-        to="/create"
-      >
-        Add Expense
-      </[object Object]>
-    </li>
-    <li
-      className="list-group-item"
-    >
       <button
+        className="btn btn--link"
         onClick={[Function]}
       >
         Logout
       </button>
-    </li>
-  </ul>
+    </div>
+  </div>
 </header>
 `;
